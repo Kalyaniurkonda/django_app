@@ -1,1 +1,1 @@
-# django_app
+print("hello")# django_app
