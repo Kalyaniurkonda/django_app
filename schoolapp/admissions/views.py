@@ -7,7 +7,8 @@ def admissions1(request):
     return render(request,'admissions/newadmissions.html',values)
 
 def admissions2(request):
-    return render(request,'admissions/oldadmissions.html')
+    values = {'Name':'Kalyani','Age':23,'Adress':'hyd'}
+    return render(request,'admissions/oldadmissions.html',values)
  
 
 
