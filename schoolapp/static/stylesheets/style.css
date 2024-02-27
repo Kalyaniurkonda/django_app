@@ -1,0 +1,15 @@
+h1{
+    color:blue;
+}
+
+h2{
+    color:red;
+}
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding:2;
+    margin:11;
+}
