@@ -19,10 +19,12 @@ from django.urls import path
 from django.conf.urls import include
 # from admissions import views as adv
 # from finance import views as fin 
+from admissions import views
 
 urlpatterns = [
     
     path('admin/', admin.site.urls),
+    path('',views.homepage),
     path('ad/',include('admissions.urls')),
     path('fin/',include('finance.urls'),)
     # path('newadm/',adv.admissions1),

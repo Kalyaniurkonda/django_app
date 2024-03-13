@@ -1,0 +1,12 @@
+*{
+    margin:10;
+    padding:0;
+}
+div{
+    border: 1px solid greenyellow;
+    width:30%;
+    text-align:center;
+    float:left;
+    height:200px;
+
+}
