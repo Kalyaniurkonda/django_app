@@ -8,8 +8,19 @@
         <img src="{% static "images/sureshuu.jpg" %}" width =280 height= 400  alt=" image not found">
         <h2> This is {{Name}}</h2>
         <h3> I am {{Age}}years old</h3>
-        <h4> I am from {{Adress}}</h4>
-        <h5>I am Fan of Hero Nani</h5>
+        <h3> I am from {{Adress}}</h3>
+        <h3>I am Fan of Hero Nani</h3></br>
+
+        <h1>Please Fill Up the Form</h1>
+
+        <form method="POST">
+            <table>
+            {{form.as_table}}
+            </table>
+        </br>
+
+        <button type="button" name="button">Add student</button>
+        {% comment %} <input type="submit" value="Add Student"> {% endcomment %}
 
     </body>
     </head>
